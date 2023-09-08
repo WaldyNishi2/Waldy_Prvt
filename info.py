@@ -33,7 +33,7 @@ AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Harsha:harsha@waldysearchprvt.jsyxwtb.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "waldyfilesbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'waldyfilesbot')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001896536431'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001564865764'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'WaldyWritings_bot')
 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
